@@ -7,35 +7,54 @@
 // |   S L I D E   1   |
 // ---------------------
 
-#slide1 {
-  width: 100%;
-  display: block;
-}
 
-#kids_big {
+.hero #kids_big {
   // outline: 1px solid black;
-  background: url('happy-group-of-kids.jpg') no-repeat center 25%;
+  background: url('happy-group-of-kids.jpg');
+
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  width: 100%;
-  height: 380px;
-  min-height: 100px;
-  margin-top: 7%;
-  // margin-bottom: 2.5%;
+  background-position: 50% 25%;
+  background-repeat: no-repeat;
+
+  margin-top: 80px;
+
+  .inner {
+    padding-top: 26.68%;
+    display: block;
+    height: 0
+  }
 }
 
-#bucktown_logo_big {
-  background: url('bucktown_logo_big.png') no-repeat 50% 50%;
-    -moz-background-size: 30%;
+.hero #bucktown_logo_big {
+  background: url('bucktown_logo_big.png');
+
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 30%;
   -o-background-size: 30%;
   background-size: 30%;
-  width: 100%;
-  height: 250px;
-  min-height: 7%;
-  max-height: 100%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%; 
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  // margin-top: 80px;
+
+  .inner {
+    padding-top: 26.68%;
+    display: block;
+    height: 0
+  }
 }
 
 // ---------------------
