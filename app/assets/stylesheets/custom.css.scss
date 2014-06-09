@@ -55,7 +55,6 @@ a {
 }
 
 #header {
-  outline: 1px solid;
   width: 100%;
   min-height: 80px;
   position: fixed;
@@ -65,24 +64,25 @@ a {
 }
 
 #header-left {
-  background-color: #CCCCCC;
-  width: 80%;
+  width: 60%;
   float: left;
+  margin-left: 20%;
   
   #nav {
-    width: 100%;
     float: right;
+    width: 100%;
+    // margin-left: 10%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+
     ul {
       width: 100%;
       list-style: none;
       padding: 0;
-      margin-right: 10%;
-      margin-top: 1.5%;
-      margin-bottom: 1.5%;
 
       li {
         display: block;
-        float: right;
+        float: left;
         margin-top: 1.5%;
         padding-left: 2%;
 
@@ -92,7 +92,7 @@ a {
           text-decoration: none;
           font-family: 'Oswald';
 
-          &:active {
+          &.active {
             color: #222;
             border-bottom: 3px solid #222;
           }
@@ -112,12 +112,13 @@ a {
 }
 #logo {
   width: 20%;
-  background-color: red;
-  float: right;
+  float: left;
 
   img {
-    width: 4%;
+    width: 43px;
     height: auto;
+    margin-left: 12%;
+    margin-top: 15px;
   }
 }
 
@@ -166,11 +167,15 @@ a {
     display: none;
   }
 
-  #nav {
-    // margin: 4% 10% 4% 0;
+  #header-left {
+    width: 80%;
+    margin: 0;
+    margin: 4% 10% 4% 10%;
+
     ul {
       display: block;
-      margin: 20px;
+      margin-top: 0;
+
       li {
         padding-left: 20px;
         span {
