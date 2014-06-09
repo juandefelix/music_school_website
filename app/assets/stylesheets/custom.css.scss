@@ -57,55 +57,63 @@ a {
 #header {
   outline: 1px solid;
   width: 100%;
-  height: auto;
-  min-height: 12%;
+  min-height: 80px;
   position: fixed;
   top: 0px;
   opacity: 0.90;
   background-color: white;
 }
 
-#logo {
-  margin: 1% 0 1.75% 0;
+#nav {
+  width: 100%;
+  
+  ul {
+    display: block;
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin-right: 10%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
 
-  img {
-    width: 65%;
-    height: auto;
+    li {
+      display: block;
+      float: left;
+      margin-top: 1.5%;
+      padding-left: 2%;
+
+      a {
+        color: #888;
+        font-size: 1em;
+        text-decoration: none;
+        font-family: 'Oswald';
+
+        &:active {
+          color: #222;
+          border-bottom: 3px solid #222;
+        }
+
+        &:hover {
+          color: #222;
+        }
+      }
+
+      span {
+        font-size: 1.5em;
+        color: #888;
+      }
+    }
   }
 }
 
-#nav {
-  float: right;
-  margin-right: 10%;
-}
+#logo {
+  display: inline-block;
+  margin: 1.5% 0 1.5% 5%;
 
-#nav ul {
-  list-style: none;
-  display: block;
-  list-style: none;
-}
-
-#nav li {
-  margin-top: 1.5%;
-  padding-left: 2%;
-  float: left;
-
-}
-
-#nav li a {
-  color: #888;
-  font-size: 1em;
-  text-decoration: none;
-  font-family: 'Oswald';
-}
-
-#nav li a.active {
-  color: #222;
-  border-bottom: 3px solid #222;
-}
-
-#nav li a:hover {
-  color: #222;
+  img {
+    width: 50%;
+    height: auto;
+  }
 }
 
 #slide3 {
@@ -132,7 +140,6 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
   color: #fff;
-  /*background-size: cover;*/
 }
 
 #copyright {
@@ -149,12 +156,22 @@ a {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 840px) { 
+@media (max-width: 865px) { 
   #logo {
     display: none;
   }
 
   #nav {
-    margin: 4% 10% 4% 0;
+    // margin: 4% 10% 4% 0;
+    ul {
+      display: block;
+      margin: 20px;
+      li {
+        padding-left: 20px;
+        span {
+          font-size: 1em;
+        }
+      }     
+    }
   }
 }
