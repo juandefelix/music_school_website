@@ -44,10 +44,6 @@ a {
   text-decoration: none;
 }
 
-.center { 
-  margin: 0 auto;
-}
-
 .img-row {
   width: 100%;
   margin-top: 10px;
@@ -74,6 +70,7 @@ a {
     // margin-left: 10%;
     margin-top: 1.5%;
     margin-bottom: 1.5%;
+    z-index: 1;
 
     ul {
       width: 100%;
@@ -110,6 +107,7 @@ a {
     }
   }
 }
+
 #logo {
   width: 20%;
   float: left;

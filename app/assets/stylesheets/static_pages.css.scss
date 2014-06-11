@@ -42,18 +42,18 @@
   font: 0/0 serif;
   color: transparent;
 
-  -moz-background-size: 30%;
-  -o-background-size: 30%;
-  background-size: 30%;
+  -moz-background-size: 25%;
+  -o-background-size: 25%;
+  background-size: 25%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
 
   // margin-top: 80px;
 
   .inner {
-    padding-top: 26.68%;
+    padding-top: 21.2%;
     display: block;
-    height: 0
+    height: 0;
   }
 }
 
@@ -64,7 +64,7 @@
 #slide2 {
   width: 100%;
   margin: 0 auto;
-  padding: 7% 0;
+  padding-top: 7%;
   overflow: hidden;
   background-color: #EBEBEB;
   color: #333333;
@@ -133,14 +133,25 @@
   display: inline-block;
 }
 
-#not-sure {
-  // text-align: left;
-  padding-left: 35px;
-}§
-
 #piano-girl {
-  // float: right;
-  height: 200px;
+  // outline: 1px solid black;
+  background: url('piano-girl.jpg');
 
+  display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 40%;
+  -o-background-size: 40%;
+  background-size: 40%;
+  background-position: 50% top;
+  background-repeat: no-repeat;
+
+  .inner {
+    padding-top: 70%;
+    display: block;
+    height: 0;
+  }
 }
 
