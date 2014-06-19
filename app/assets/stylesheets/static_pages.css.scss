@@ -86,51 +86,87 @@
 }
 
 #inst1 {
-  background: url('piano.jpg') no-repeat top center;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-  font-size: 0px;
+  background: url('piano.jpg');
+  
   display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  .inner {
+    padding-top: 60%;
+    display: block;
+    height: 0;
+  }
 }
 
 #inst2 {
-  background: url('guitar.jpg') no-repeat top center;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-  font-size: 0px;
+  background: url('guitar.jpg');
+  
   display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  .inner {
+    padding-top: 60%;
+    display: block;
+    height: 0;
+  }
 }
 
 #inst3 {
-  background: url('voice.jpg') no-repeat top center;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-  font-size: 0px;
+  background: url('voice.jpg');
+  
   display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  .inner {
+    padding-top: 60%;
+    display: block;
+    height: 0;
+  }
 }
 
 #inst4 {
-  background: url('winds.jpg') no-repeat top center;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 200px;
-  margin: 0;
-  padding: 0;
-  font-size: 0px;
+  background: url('winds.jpg');
+  
   display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 120%;
+  -o-background-size: 120%;
+  background-size: 120%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  .inner {
+    padding-top: 60%;
+    display: block;
+    height: 0;
+  }
 }
 
 #piano-girl {
@@ -155,3 +191,85 @@
   }
 }
 
+// ---------------------
+// |   S L I D E   3   |
+// ---------------------
+
+#slide3{
+  padding-top: 80px;
+}
+
+#kindermusic-first-kid{
+  background: url('kindermusic-first-kid.jpg');
+
+  display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  margin-top: 7%;
+
+  .inner {
+    padding-top: 66.75%;
+    display: block;
+    height: 0;
+  }
+}
+
+#kindermusic-second-kid{
+
+  background: url('kindermusic-second-kid.jpg');
+
+  display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  margin-top: 8%;
+
+  .inner {
+    padding-top: 60%;
+    display: block;
+    height: 0;
+  }
+}
+
+#new-arrival{
+
+  background: url('new-arrival.jpg');
+
+  display: inline-block;
+  vertical-align: top;
+  font: 0/0 serif;
+  color: transparent;
+
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
+  // margin-top: 4%;
+
+  .inner {
+    padding-top: 50%;
+    display: block;
+    height: 0;
+  }
+}
+
+#locations {
+  margin-top: 4%;
+}
