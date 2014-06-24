@@ -6,7 +6,7 @@ h1{
   font-weight: bold;
   font-size: 45px;
   text-align: center;
-  color: #222;
+  // color: #222;
   margin-bottom: 25px;
   padding: 0;
 }
@@ -16,7 +16,7 @@ h2{
   font-weight: 400;
   font-size: 40px;
   text-align: center;
-  color: #222;
+  // color: #222;
   margin-bottom: 15px;
   padding: 0;
 }
@@ -39,9 +39,13 @@ p, a {
 }
 
 a {
-  color: #222;
+  color: #285379;
   font-weight: 400;
   text-decoration: none;
+  &:hover {
+    color: #428BCA;
+    text-decoration: none;
+  }
 }
 
 .img-row {

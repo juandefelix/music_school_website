@@ -66,8 +66,8 @@
   margin: 0 auto;
   padding-top: 7%;
   overflow: hidden;
-  background-color: #EBEBEB;
-  color: #333333;
+  background-color: #FCFCFC;
+  color:  #6A6A6A;
   /*height: 400px;*/
 
   ul {
@@ -246,6 +246,10 @@
   }
 }
 
+#locations {
+
+}
+
 #new-arrival{
 
   background: url('new-arrival.jpg');
@@ -272,4 +276,9 @@
 
 #locations {
   margin-top: 4%;
+}
+
+#school1, #school2, #school3 {
+  float: left;
+  width: 33.33%;
 }
